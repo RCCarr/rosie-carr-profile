@@ -4,6 +4,7 @@ font-family: 'Roboto Mono', monospace;*/
 :root {
   --primary-color: rgba(255, 106, 19, 0.2);
   --secondary-color: rgba(0, 0, 0, 0.7);
+  --tertiary-color: rgba(255, 106, 19, 0.8);
   --heading-font-family: "Roboto Mono", monospace;
   --default-font-family: "Roboto", sans-serif;
 }
@@ -14,14 +15,30 @@ h1 {
   padding-top: 20px;
 }
 
-h2,
 h3,
 h4,
 h5,
 h6,
 p {
-  font-family: --default-font-family;
+  font-family: var(--default-font-family);
   font-weight: 400;
+  color: var(--secondary-color);
+}
+
+h2 {
+  font-size: 30px;
+  font-family: var(--default-font-family);
+}
+h3 {
+  font-size: 20px;
+}
+h4 {
+  font-size: 16px;
+  color: var(--tertiary-color);
+}
+.role-area {
+  font-size: 18px;
+  color: var(--secondary-color);
 }
 
 .hero {
@@ -41,6 +58,15 @@ p {
   background: var(--secondary-color);
   border-radius: 4px;
   color: white;
+  font-size: 16px;
+  line-height: 26px;
+  padding: 12px 30px;
+  text-decoration: none;
+}
+.btn-link {
+  background: var(--tertiary-color);
+  border-radius: 4px;
+  color: var(--secondary-color);
   font-size: 16px;
   line-height: 26px;
   padding: 12px 30px;
