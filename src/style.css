@@ -9,6 +9,13 @@ font-family: 'Roboto Mono', monospace;*/
   --default-font-family: "Roboto", sans-serif;
 }
 
+.body-text {
+  display: block;
+  margin: 0 auto;
+  max-width: 1300px;
+  justify-content: center;
+}
+
 h1 {
   font-family: var(--heading-font-family);
   font-size: 80px;
@@ -71,4 +78,10 @@ h4 {
   line-height: 26px;
   padding: 12px 30px;
   text-decoration: none;
+}
+
+@media (max-width: 600px) {
+  .role-description {
+    text-align: center;
+  }
 }
