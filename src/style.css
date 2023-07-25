@@ -13,7 +13,7 @@ font-family: 'Roboto Mono', monospace;*/
   display: block;
   margin: 0 auto;
   max-width: 1300px;
-  justify-content-container: center;
+  justify-content: center;
 }
 
 h1.homepage-header {
@@ -31,6 +31,7 @@ h3,
 h4,
 h5,
 h6,
+li,
 p {
   font-family: var(--default-font-family);
   font-weight: 400;
@@ -119,6 +120,37 @@ h4 {
 .content p {
   font-size: 14px;
   margin: 0;
+}
+
+.logo {
+  max-height: 50px;
+}
+nav {
+  padding: 10px 0;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  margin-left: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--secondary-color);
+  transition: all 100ms ease-in-out;
+  font-size: 14px;
+}
+
+nav a:hover,
+nav li.active a {
+  color: var(--tertiary-color);
+  font-weight: 900;
 }
 
 @media (max-width: 600px) {
