@@ -129,6 +129,10 @@ h5 {
 .logo {
   max-height: 30px;
 }
+
+.logo-sm {
+  max-height: 20px;
+}
 nav {
   padding: 10px 0;
 }
@@ -209,4 +213,5 @@ footer .social-links a :hover {
   h5 {
     font-size: 24px;
   }
+  
 }
