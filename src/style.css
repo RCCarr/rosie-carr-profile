@@ -29,7 +29,7 @@ h1 {
 
 h3,
 h4,
-h5,
+h6,
 li,
 p {
   font-family: var(--default-font-family);
@@ -48,7 +48,7 @@ h4 {
   font-size: 16px;
   color: var(--tertiary-color);
 }
-h6 {
+h5 {
   font-family: var(--heading-font-family);
   font-size: 40px;
 }
@@ -95,7 +95,7 @@ h6 {
 }
 
 .content-container {
-  padding: 100px 20px;
+  padding: 40px 20px;
 }
 .content-container h2 {
   color: var(--tertiary-color);
@@ -127,7 +127,7 @@ h6 {
 }
 
 .logo {
-  max-height: 50px;
+  max-height: 30px;
 }
 nav {
   padding: 10px 0;
@@ -148,7 +148,6 @@ nav a {
   text-decoration: none;
   color: var(--secondary-color);
   transition: all 100ms ease-in-out;
-  font-size: 14px;
 }
 
 nav a:hover,
@@ -193,6 +192,11 @@ footer .social-links a {
 footer .social-links a :hover {
   color: var(--secondary-color);
 }
+.github-project-link {
+  text-decoration: none;
+  color: var(--tertiary-color);
+  font-family: var(--heading-font-family)
+}
 
 @media (max-width: 600px) {
   .role-description {
@@ -202,7 +206,7 @@ footer .social-links a :hover {
     text-align: center;
     padding: 0;
   }
-  h6 {
+  h5 {
     font-size: 24px;
   }
 }
