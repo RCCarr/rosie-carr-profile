@@ -199,7 +199,12 @@ footer .social-links a :hover {
 .github-project-link {
   text-decoration: none;
   color: var(--tertiary-color);
-  font-family: var(--heading-font-family)
+  font-family: var(--heading-font-family);
+}
+.project-link {
+  text-decoration: none;
+  color: var(--tertiary-color);
+  font-family: var(--heading-font-family);
 }
 
 @media (max-width: 600px) {
@@ -213,5 +218,4 @@ footer .social-links a :hover {
   h5 {
     font-size: 24px;
   }
-  
 }
